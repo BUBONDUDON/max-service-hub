@@ -1,0 +1,216 @@
+@import "tailwindcss";
+
+.fc {
+  font-family: inherit;
+}
+
+.fc-toolbar-title {
+  color: white !important;
+  font-size: 1.5rem !important;
+  font-weight: 600 !important;
+}
+
+.dark .fc-toolbar-title {
+  color: white !important;
+}
+
+.fc-button {
+  background: #ff6f3c !important;
+  border: none !important;
+  color: white !important;
+  border-radius: 0.75rem !important;
+  padding: 0.5rem 1rem !important;
+  font-weight: 500 !important;
+  transition: all 0.2s !important;
+}
+
+.fc-button:hover {
+  background: #FF4300 !important;
+}
+
+.fc-button:disabled {
+  background: #c0c0c0 !important;
+  opacity: 0.5 !important;
+}
+
+.fc-button-active {
+  background: #ff6f3c !important;
+}
+
+.fc-button-active:hover {
+  background: #7e64f2 !important;
+}
+
+/* Заголовки дней недели */
+.fc-col-header-cell {
+  background: #f8f6f3 !important;
+  border-color: #e0e0e0 !important;
+}
+
+.dark .fc-col-header-cell {
+  background: #262626 !important;
+  border-color: #404040 !important;
+}
+
+.fc-col-header-cell-cushion {
+  color: #0d0d0d !important;
+  font-weight: 600 !important;
+  padding: 0.75rem 0.5rem !important;
+}
+
+.dark .fc-col-header-cell-cushion {
+  color: white !important;
+}
+
+/* Номера дней */
+.fc-daygrid-day-number {
+  color: #0d0d0d !important;
+  font-weight: 500 !important;
+  padding: 0.5rem !important;
+}
+
+.dark .fc-daygrid-day-number {
+  color: white !important;
+}
+
+/* Ячейки дней */
+.fc-daygrid-day {
+  background: white !important;
+  border-color: #e0e0e0 !important;
+}
+
+.dark .fc-daygrid-day {
+  background: #1e1e1e !important;
+  border-color: #404040 !important;
+}
+
+.fc-daygrid-day:hover {
+  background: #f8f6f3 !important;
+  cursor: pointer;
+}
+
+.dark .fc-daygrid-day:hover {
+  background: #262626 !important;
+}
+
+/* Сегодняшний день */
+.fc-day-today {
+  background: #fff4f8 !important;
+}
+
+.dark .fc-day-today {
+  background: #2d1f2f !important;
+}
+
+/* Временная сетка */
+.fc-timegrid-slot {
+  background: white !important;
+  border-color: #e0e0e0 !important;
+}
+
+.dark .fc-timegrid-slot {
+  background: #1e1e1e !important;
+  border-color: #404040 !important;
+}
+
+.fc-timegrid-slot:hover {
+  background: #f8f6f3 !important;
+}
+
+.dark .fc-timegrid-slot:hover {
+  background: #262626 !important;
+}
+
+/* Метки времени */
+.fc-timegrid-slot-label {
+  color: #666666 !important;
+  font-size: 0.875rem !important;
+  border-color: #e0e0e0 !important;
+}
+
+.dark .fc-timegrid-slot-label {
+  color: #aaaaaa !important;
+  border-color: #404040 !important;
+}
+
+.fc-timegrid-axis {
+  color: #666666 !important;
+}
+
+.dark .fc-timegrid-axis {
+  color: #aaaaaa !important;
+}
+
+/* События (слоты) */
+.fc-event {
+  border-radius: 0.5rem !important;
+  padding: 0.25rem 0.5rem !important;
+  font-size: 0.875rem !important;
+  font-weight: 500 !important;
+  cursor: pointer !important;
+  transition: all 0.2s !important;
+}
+
+.fc-event:hover {
+  opacity: 0.9 !important;
+  transform: scale(1.02) !important;
+}
+
+.fc-event-title {
+  font-weight: 500 !important;
+}
+
+/* Индикатор текущего времени */
+.fc-timegrid-now-indicator-line {
+  border-color: #ff6f3c !important;
+  border-width: 2px !important;
+}
+
+.fc-timegrid-now-indicator-arrow {
+  border-color: #ff6f3c !important;
+}
+
+/* Скроллбар */
+.fc-scroller::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.fc-scroller::-webkit-scrollbar-track {
+  background: #f8f6f3;
+  border-radius: 4px;
+}
+
+.dark .fc-scroller::-webkit-scrollbar-track {
+  background: #262626;
+}
+
+.fc-scroller::-webkit-scrollbar-thumb {
+  background: #c0c0c0;
+  border-radius: 4px;
+}
+
+.fc-scroller::-webkit-scrollbar-thumb:hover {
+  background: #aaaaaa;
+}
+
+/* Границы */
+.fc-theme-standard td,
+.fc-theme-standard th {
+  border-color: #e0e0e0 !important;
+}
+
+.dark .fc-theme-standard td,
+.dark .fc-theme-standard th {
+  border-color: #404040 !important;
+}
+.fc .fc-button-group {
+  gap: 10px;
+}
+
+@media (max-width: 960px) {
+  .fc .fc-toolbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
