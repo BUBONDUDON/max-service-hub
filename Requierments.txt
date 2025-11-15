@@ -1,11 +1,24 @@
-@maxhub/max-bot-api==0.2.1
-@supabase/supabase-js==2.81.1
-dotenv==17.2.3
+react ^19.2.0 React framework
+react-dom ^19.2.0 DOM-рендеринг React
+react-router-dom ^7.9.5 Маршрутизация
+react-toastify ^11.0.5 Уведомления
+@fullcalendar/react ^6.1.19 Календарь React
+@fullcalendar/daygrid ^6.1.19 Плагин для отображения дней
+@fullcalendar/timegrid ^6.1.19 Плагин для отображения времени
+@fullcalendar/interaction ^6.1.19 Плагин для взаимодействия с календарем
+@supabase/supabase-js ^2.81.1 Работа с Supabase (API + БД)
+tailwindcss ^4.1.17 CSS-фреймворк
+@tailwindcss/vite ^4.1.17 Плагин Tailwind для Vite
+lucide-react ^0.553.0 Набор иконок
 
-# Dev dependencies
-@eslint/js==9.39.1
-@types/node==24.10.1
-eslint==9.39.1
-globals==16.5.0
-typescript==5.9.3
-typescript-eslint==8.46.4
+DevDependencies (для разработки)
+Библиотека Версия Назначение
+vite ^7.2.2 Сборщик проекта
+@vitejs/plugin-react-swc ^4.2.1 Плагин React для Vite
+eslint ^9.39.1 Линтер JS/TS
+@eslint/js ^9.39.1 ESLint конфигурация для JS
+eslint-plugin-react-hooks ^5.2.0 Проверка хуков React
+eslint-plugin-react-refresh ^0.4.24 Проверка HMR в React
+@types/node ^24.10.0 Тайпинги для Node.js
+globals ^16.5.0 Глобальные переменные
+typescript-eslint ^8.46.3 ESLint для TypeScript
